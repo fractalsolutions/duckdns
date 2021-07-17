@@ -7,7 +7,7 @@ services:
       - PUID=1000 #optional
       - PGID=1000 #optional
       - TZ=Australia/Sydney
-      - SUBDOMAINS=subdomain1,subdomain2
-      - TOKEN=token
+      - SUBDOMAINS
+      - TOKEN
       - LOG_FILE=false #optional
     restart: unless-stopped
